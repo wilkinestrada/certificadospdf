@@ -1,8 +1,17 @@
 {
+  "kind": "column",
   "name": "HTML a PDF",
   "description": "Convierte cualquier HTML en un link para generar PDF",
+  "author": "Wilkin Estrada",
   "params": [
-    { "name": "html", "type": "string" }
+    {
+      "name": "html",
+      "displayName": "HTML",
+      "type": "string"
+    }
   ],
-  "result": { "type": "string" }
+  "result": {
+    "type": "string",
+    "displayName": "PDF Link"
+  }
 }
