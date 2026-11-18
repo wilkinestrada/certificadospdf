@@ -52,4 +52,4 @@ This project uses the web-based Experimental Code structure required by Glide:
 
 ### v1.1.0 - 2025-12-29
 * **Added:** Vimeo support using the public OEmbed API.
-* **
+* ** NUEVA
