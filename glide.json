@@ -1,17 +1,8 @@
 {
-  "kind": "column",
-  "name": "Universal Media Thumbnail, v2",
-  "description": "Generates a thumbnail image from YouTube, Vimeo, Loom, or hosted video URLs.",
-  "author": "Robert Petitto",
-  "params": [
-    {
-      "name": "url",
-      "displayName": "Media URL",
-      "type": "string"
-    }
+  "name": "HTML a PDF",
+  "description": "Convierte cualquier HTML en un link para generar PDF",
+  "parameters": [
+    { "name": "html", "type": "string" }
   ],
-  "result": {
-    "type": "string",
-    "displayName": "Thumbnail Image"
-  }
+  "result": { "type": "string" }
 }
