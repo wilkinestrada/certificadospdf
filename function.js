@@ -3,5 +3,6 @@ window.function = function (html) {
   if (!rawHtml) {
     return undefined;
   }
-  return "https://wilkinestrada.github.io/htmlprueba1/?PDF=" + encodeURIComponent(rawHtml);
+  const compressed = LZString.compressToEncodedURIComponent(rawHtml);
+  return "https://wilkinestrada.github.io/htmlprueba1/#" + compressed;
 };
